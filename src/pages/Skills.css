@@ -1,0 +1,101 @@
+.skills {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    left: 0; /* Asegura que el Navbar comience desde la izquierda */
+    right: 0;
+    top: 0;
+    justify-content: space-between;
+    padding: 8px 200px;
+    border: none; /* Sin bordes */
+    outline: none; /* Sin contorno al hacer clic */
+    border: 2px solid rgba(255, 255, 255, 0.411); /* Borde con fondo traslúcido (ajusta el valor de alfa según tus preferencias) */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    backdrop-filter:blur(10px);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.589);
+    text-decoration: none !important;
+    z-index: 1;
+}
+
+div{
+    color: rgb(255, 255, 255);
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin-top: 10px;
+}
+
+.nav-links li {
+margin-right: 10px;
+}
+
+.skills ul {
+    list-style: none; /* Elimina los puntos de la lista principal */
+}
+
+.nav-links{
+    justify-content: center;
+    top: 100px; /* Ajusta la distancia desde la parte superior según tu Navbar */
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin-top: 10px;
+}
+
+.nav-links li {
+    margin-right: 10px;
+    display: flex;
+    align-items: center; 
+}
+
+
+
+.red::before {
+    content: '\2022'; /* Código Unicode para el punto • */
+    color: #ff0000; /* Rojo */
+    font-size: 20px; /* Tamaño del punto, ajusta según tus necesidades */
+    margin-right: 5px; /* Espacio entre el punto y el texto */
+    vertical-align: middle; /* Alinea verticalmente con el contenido del li */
+    font-size: 30px; 
+}
+
+.blue::before {
+    content: '\2022';
+    color: #0000ff; /* Azul */
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+    font-size: 30px; 
+
+}
+
+.green::before {
+    content: '\2022';
+    color: #00ff00; /* Verde */
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+    font-size: 30px; 
+
+}
+
+.yellow::before {
+    content: '\2022';
+    color: #ffff00; /* Amarillo */
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+    font-size: 30px; 
+
+}

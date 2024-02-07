@@ -1,0 +1,89 @@
+/* Navbar.css */
+
+/* Estilos para el Navbar */
+.navbar {
+    position: fixed; /* Establece la posición fija para que el Navbar permanezca en la parte superior incluso al desplazarse */
+    top: 0; /* Coloca el Navbar en la parte superior de la pantalla */
+    left: 0; /* Asegura que el Navbar comience desde la izquierda */
+    right: 0; 
+    width: 99%; /* Cubre todo el ancho de la pantalla */
+    display: flex; /* Utiliza flexbox para un diseño flexible */
+    justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor con espacio entre ellos */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    padding: 1px 10px; /* Añade espacio interno al Navbar */
+    background: transparent; /* Fondo transparente */
+    border: none; /* Sin bordes */
+    outline: none; /* Sin contorno al hacer clic */
+    border: 2px solid rgba(255, 255, 255, .2); /* Borde con fondo traslúcido (ajusta el valor de alfa según tus preferencias) */
+    color: #fff; /* Color del texto */
+    border-radius: 40px; /* Bordes redondeados */
+    margin: 5px;
+    backdrop-filter:blur(5px);
+    z-index: 1;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.589);
+    
+}
+
+
+/* Estilos para los enlaces de navegación en el Navbar */
+.nav-links {
+    list-style: none; /* Elimina los puntos de lista */
+    display: flex; /* Utiliza flexbox para los enlaces de navegación */
+}
+
+/* Estilos para cada elemento de la lista de enlaces de navegación */
+.nav-links li {
+    margin-right: 30px; /* Anchura fija para evitar que las palabras se alarguen */
+    filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
+    transition: filter 0.6s ease; 
+}
+
+.nav-links li:hover{
+    margin-right: 30px; /* Espacio entre cada enlace de navegación */
+    filter:drop-shadow(0px 0px 0px rgba(255, 255, 255, 0));
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-links a {
+    text-decoration: none; /* Sin subrayado en los enlaces de navegación */
+    color: #fff; /* Color del texto de los enlaces de navegación */
+    font-weight: 600; /* Grosor de la fuente para los enlaces de navegación */
+    transition: text-shadow 0.7s ease;
+}
+
+/* Estilos al pasar el mouse sobre los enlaces de navegación */
+.nav-links a:hover {
+    text-decoration: solid; /* Subrayado al pasar el mouse sobre los enlaces de navegación */
+    color: rgba(0, 0, 0, 0.829);
+    text-shadow: none;
+}
+
+.button{
+    background: #074670bb ;
+    border-radius: 18px;
+    border: none; /* Sin bordes */
+    outline: none; /* Sin contorno al hacer clic */
+    color: #fff; /* Color del texto */
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, filter 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, .2);
+    filter:drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.63));
+    margin-right: 10px;
+
+}
+
+.button:hover {
+    background: #206b9cde; /* Color diferente al posarse sobre el botón */
+    border: none;
+    border-radius: 18px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    padding: 10px 15px;
+    font-size: 16px;
+    outline: none; /* Sin contorno al hacer clic */
+    margin-right: 10px; 
+    filter:drop-shadow(0px 0px 0px rgba(255, 255, 255, 0));
+    
+}
+

@@ -1,0 +1,53 @@
+/* Courses.css */
+
+.courses {
+    padding: -5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Cambiado de space-between a flex-start */
+    align-items: flex-start; /* Ajustado para que los elementos se alineen desde la parte superior */
+    z-index: 1;
+    backdrop-filter:blur(10px);
+    
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.nav-links li {
+    margin-right: 10px;
+}
+
+.card {
+    flex: 0 0 calc(50% - 70px); /* Dos elementos por fila, con márgenes entre ellos */
+    margin-bottom: 1px;
+    background-color: #1f1d1de8; /* Añade un fondo oscuro */
+    border-radius: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    left: 0;
+    margin-right: 10px; /* Espacio entre elementos */
+    font-size: 12px;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.589);
+    border: 1px solid black;
+}
+.card ,li{
+    list-style: none;
+    margin-right: 30px;
+}
+.container{
+    border: none; /* Sin bordes */
+    outline: none; /* Sin contorno al hacer clic */
+    border: 2px solid rgba(255, 255, 255, 0.411); /* Borde con fondo traslúcido (ajusta el valor de alfa según tus preferencias) */
+    border-radius: 40px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.589);
+}

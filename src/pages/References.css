@@ -1,0 +1,35 @@
+/* PersonalInfo.css */
+
+.table-card {
+    backdrop-filter:blur(10px);
+    text-align: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.411); /* Borde con fondo traslúcido */
+    border-radius: 20px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que los bordes redondeados sean visibles */
+    margin: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.589);
+}
+
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina los espacios entre las celdas de la tabla */
+    border-radius: 30px;
+}
+
+.table th, .table td {
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Línea separadora entre celdas */
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.table th {
+    background-color: rgba(255, 255, 255, 0.1); /* Color de fondo traslúcido para las celdas de encabezado */
+}
+

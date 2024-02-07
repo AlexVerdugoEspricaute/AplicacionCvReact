@@ -1,0 +1,32 @@
+.education {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 40px;
+    left: 0; /* Asegura que el Navbar comience desde la izquierda */
+    justify-content: space-between;
+    padding: 43px 60px;
+    border: none; /* Sin bordes */
+    outline: none; /* Sin contorno al hacer clic */
+    border: 2px solid rgba(255, 255, 255, 0.411); /* Borde con fondo traslúcido (ajusta el valor de alfa según tus preferencias) */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    backdrop-filter:blur(10px);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.589);
+    z-index: 1;
+}
+
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+
+}
+
+.nav-links li {
+    margin-right: 20px;
+    margin-top: -10px;
+}

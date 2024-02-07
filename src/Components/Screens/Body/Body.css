@@ -1,0 +1,16 @@
+.body {
+    padding: 20px;
+    background-color: transparent; /* Ajusta el color de fondo según tus preferencias */
+    color: #fff; /* Ajusta el color del texto según tus preferencias */
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px;
+    z-index: 1;
+}
+
+.body h1, h3 {
+    margin: 10px;
+
+}

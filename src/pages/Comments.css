@@ -1,0 +1,22 @@
+.body2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border: none; /* Sin bordes */
+    outline: none; /* Sin contorno al hacer clic */
+    border: 2px solid rgba(255, 255, 255, 0.411); /* Borde con fondo traslúcido (ajusta el valor de alfa según tus preferencias) */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    backdrop-filter:blur(15px);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.589);
+    z-index: 1;
+    margin: 20px;
+    font-size: 18px;
+    
+}
+
+
