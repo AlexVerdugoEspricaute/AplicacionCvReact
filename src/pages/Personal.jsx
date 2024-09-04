@@ -1,4 +1,4 @@
-import PersonalInfo from './personalInfo';
+import PersonalInfo from './PersonalInfo';
 import './Personal.css'; 
 
 const Personal = () => {    

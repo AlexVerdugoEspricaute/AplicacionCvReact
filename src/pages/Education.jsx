@@ -1,6 +1,6 @@
 import React from 'react';
 import './Education.css'; 
-import PersonalInfo from './personalInfo';
+import PersonalInfo from './PersonalInfo';
 
 const Education = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Courses.css';
-import PersonalInfo from './personalInfo';
+import PersonalInfo from './PersonalInfo';
 
 
 const Courses = () => {
