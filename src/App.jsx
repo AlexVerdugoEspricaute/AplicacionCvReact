@@ -5,7 +5,7 @@ import Body from './Components/Screens/Body/Body';
 import fondoMontain from './Components/Assets/fonts/fondoMontain.mp4';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import PersonalInfo from './pages/personalInfo.jsx';
+import PersonalInfo from './pages/PersonalInfo.jsx';
 import References from './pages/References';
 import Comments from './pages/Comments.jsx';
 import Skills from './pages/Skills.jsx';
